@@ -1,5 +1,5 @@
 # OneWeekendRaytracer
-My implementation of Peter Shirley One Weekend Raytracer
+My implementation of Peter Shirley third raytracing Book
 
 ## Book 1: 
 
