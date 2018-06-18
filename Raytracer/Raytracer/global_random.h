@@ -26,6 +26,16 @@ float get_random() {
 	return unif(rng);
 }
 
+vec3 random_in_top_hemisphere_cosine() {
+	float r1 = unif(rng);
+	float r2 = unif(rng);
+	float z = sqrt(1 - r2);
+	float phi = 2 * M_PI*r1;
+	float x = cos(phi) * 2 * sqrt(r2);
+	float y = sin(phi) * 2 * sqrt(r2);
+	return vec3(x, y, z);
+}
+
 vec3 random_in_unit_disk() {
 	vec3 p;
 	do {

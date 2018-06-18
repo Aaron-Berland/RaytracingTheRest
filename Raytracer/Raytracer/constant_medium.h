@@ -5,7 +5,7 @@
 #include "hitable.h"
 #include <float.h>
 
-
+/*
 class constant_medium : public hitable {
 public:
 	constant_medium(hitable *b, float d, texture *a) : boundary(b), density(d) { phase_function = new isotropic(a); }
@@ -43,7 +43,7 @@ bool constant_medium::hit(const ray& r, float t_min, float t_max, hit_record& re
 	}
 	return false;
 }
-
+*/
 
 
 #endif
